@@ -5,4 +5,9 @@ build-backend = "flit_core.buildapi"
 [project]
 name = "mypackage"
 version = "0.1.0"
+lice.se = {file = "LICENSE.txt"}
 description = "My first package"
+dependencies = [
+  "httpx",
+  "gidgethub>4.0.0",
+]
