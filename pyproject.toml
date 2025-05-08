@@ -11,3 +11,13 @@ dependencies = [
   "httpx",
   "gidgethub>4.0.0",
 ]
+[project.optional-dependencies]
+dev = [
+  "bumpver",
+  "pytest",
+  "pytest-cov",
+]
+docs = [
+  "sphinx",
+  "sphinx-rtd-theme",
+]
